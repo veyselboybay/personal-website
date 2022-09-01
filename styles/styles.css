@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #ffffff8a;
-  --color-secondary: #1ca057;
+  --color-secondary: #7FB77E;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -25,7 +25,7 @@
 
 .dark-mode {
   --color-primary: #191d2b;
-  --color-secondary: #1ca057;
+  --color-secondary: #7FB77E;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -417,6 +417,10 @@ section {
 }
 .timeline .timeline-item p {
   color: var(--color-grey2);
+  font-size: 1rem;
+}
+.timeline .timeline-item li {
+  font-size: 0.8rem;
 }
 
 .portfolio-text {
@@ -431,18 +435,21 @@ section {
   padding-left: 1rem;
   padding-right: 2rem;
   border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: solid 2px #CC20DF;
+  border-bottom: solid 2px #CC20DF;
 }
 
 .project-type-skills {
+  display: inline-block;
+  background-color: var(--color-grey5);
   color: var(--color-grey4);
   padding-right: 2rem;
+  padding-left: 1rem;
   border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-.project-type-skills h3 {
-  -webkit-text-decoration: underline 4px #CC20DF;
-          text-decoration: underline 4px #CC20DF;
+  border-bottom-left-radius: 10px;
+  border-left: solid 1px #CC20DF;
+  border-bottom: solid 1px #CC20DF;
 }
 
 .portfolios {
